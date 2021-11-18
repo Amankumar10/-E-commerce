@@ -10,8 +10,7 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout__left">
-      
-
+   
         <div>
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Basket</h2>
@@ -37,3 +36,6 @@ function Checkout() {
 }
 
 export default Checkout;
+
+
+
