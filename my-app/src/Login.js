@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-const Signup = (props) => {
+const Login = (props) => {
   const [credentials, setcredentials] = useState({
     name: "",
     email: "",
@@ -103,4 +103,4 @@ const Signup = (props) => {
   );
 };
 
-export default Signup;
+export default Login;
