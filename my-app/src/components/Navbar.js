@@ -24,9 +24,10 @@ const Navbar = () => {
 
                     </ul>
                     <form className="d-flex"> 
-                    <Link className="btn btn-primary mx-1" to="/login" role="button">Login</Link>
-                    <Link className="btn btn-primary mx-1" to="/signup" role="button">Signup</Link>
-                    <Link className="btn btn-primary mx-1"  role="button">search</Link> <SearchIcon/>
+                    
+                    <Link className="btn btn-primary mx-1" to="/signup" role="button">Join -us</Link>
+                   
+                  
                     </form>
                    
                 </div>
