@@ -1,8 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
-import ModeStandbyRoundedIcon from '@mui/icons-material/ModeStandbyRounded';
-import { Stocks } from "./Stocks";
+
 
 function Home() {
   return (
@@ -12,7 +11,7 @@ function Home() {
 
       <div className="home__row">
       
-      <ModeStandbyRoundedIcon/>
+  
         <Product
           id="12321341"
           title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
@@ -61,7 +60,7 @@ function Home() {
           rating={4}
           image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
         />
-        <Stocks />
+      
       </div>
     </div>
   </div>
